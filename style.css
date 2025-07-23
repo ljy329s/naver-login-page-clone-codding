@@ -1,0 +1,179 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active,
+a:visited {
+    color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#login-main-box {
+    width: 600px;
+    height: 710px;
+    background-color: #f5f6f7;
+
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+#view-lang {
+    padding-left: 10px;
+    float: right;
+    width: 80px;
+    height: 20px;
+    margin: 10px 20px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+#main-logo {
+    clear: both;
+    text-align: center;
+}
+
+#main-logo img {
+    width: 200px;
+}
+
+section {
+    text-align: center;
+}
+
+#login-input-box input {
+    display: block;
+    width: 340px;
+    height: 40px;
+    margin: 10px auto;
+    padding-left: 10px;
+    border: 1px solid #f0f1f2;
+    font-size: 11px;
+}
+
+input::placeholder {
+    color: rgb(197, 197, 197);
+}
+
+#login-btn {
+    display: block;
+    width: 340px;
+    height: 50px;
+    margin: 30px auto 0;
+    background-color: #03c75a;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#login-member-box {
+    margin: auto;
+    padding: 10px;
+    font-size: 10px;
+    width: 340px;
+    border-top: 1px solid rgb(197, 197, 197);
+}
+
+#login-check-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    width: 340px;
+}
+
+#login-check-box img {
+    width: 20px;
+}
+
+#login-check-box span {
+    font-size: 10px;
+}
+
+.right-check-box button {
+    width: 10px;
+    height: 10px;
+    font-size: 8px;
+    padding: 0;
+}
+
+.left-check-box {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.right-check-box {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.green {
+    color: #03c75a;
+    font-weight: bold
+}
+
+#baner-box {
+    margin: 30px;
+    text-align: center;
+}
+
+
+#baner-box img {
+    width: 340px;
+    height: 130px;
+}
+
+footer {
+    position: relative;
+    margin: 100px 0 0 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+footer img {
+    width: 60px;
+}
+
+.divider {
+    color: rgb(169, 168, 168);
+}
+
+.yellow {
+    color: yellow;
+}
+
+.modal {
+    position: relative;
+    left: 290px;
+    background-color: rgb(41, 156, 251);
+    font-size: 10px;
+    color: white;
+    border-radius: 2px;
+    width: 180px;
+    padding: 2px;
+
+}
