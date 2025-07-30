@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html lang="ko">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>네이버 로그인 페이지</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div id="login-main-box">
-            <header>
-                <select id="view-lang">
-                    <option value="ko_KR">한국어</option>
-                    <option value="en_US">English</option>
-                    <option value="zh-Hans_CN">中文(简体)</option>
-                    <option value="zh-Hant_TW">中文(台灣)</option>
-                </select>
-                <div id="main-logo">
-                    <a href="index.html"><img src="images/naver-main-logo.png"></a>
-                </div>
-            </header>
-            <section>
-                <article id="login-input-box">
-                    <input type="text" name="id" placeholder="아이디">
-                    <input type="password" name="password" placeholder="비밀번호">
-                    <button id="login-btn">로그인</button>
-                </article>
-                <article id="login-check-box">
-                    <div class="left-check-box">
-                        <img src="images/check.png"><span>로그인 상태 유지</span>
-                    </div>
-                    <div class="right-check-box">
-                        <span>IP보안 <span class="green">ON</span></span> <span class="divider"> | </span> <span>일회용
-                            로그인</span><button>?</button>
-                    </div>
-                </article>
-                <div class="modal"><span class="yellow">PC방</span>처럼 여러 사람이 쓰는 pc라면? <span class="close-btn">✖</span></div>
-                <article id="login-member-box">
-                    <div><a href="">아이디 찾기</a><span class="divider"> | </span><a href="">비밀번호 찾기</a><span
-                            class="divider"> | </span><a href="">회원가입</a></div>
-                </article>
-            </section>
-            <aside id="baner-box">
-                <img src="images/under-baner.PNG">
-            </aside>
-            <footer>
-                <div id="detail-info">
-                    <p><a href="">이용약관</a><span class="divider"> | </span><a href=""><strong>개인정보 처리방침</strong></a><span
-                            class="divider"> | </span><a href="">책임의 한계와 법적고지</a><span class="divider"> | </span><a
-                            href="">회원정보 고객센터</a></p>
-                </div>
-                <div id="company">
-                    <img src="images/naver-main-logo.png">
-                    <span>Copyright</span>
-                    <span><strong>© NAVER Corp.</strong></span>
-                    <span>All Rights Reserved.</span>
-                </div>
-            </footer>
+      <header>
+        <div class="select-bar">
+          <select>
+            <option value="ko_KR">한국어</option>
+            <option value="en_US">English</option>
+            <option value="zh-Hans_CN">中文(简体)</option>
+            <option value="zh-Hant_TW">中文(台灣)</option>
+          </select>
         </div>
+        <div class="main-logo">
+          <a href="index.html"><img src="images/naver-main-logo.png" /></a>
+        </div>
+      </header>
+      <main>
+        <div class="login-input-box">
+          <input type="text" name="id" placeholder="아이디" />
+          <input type="password" name="password" placeholder="비밀번호" />
+          <button class="login-btn">로그인</button>
+        </div>
+        <div class="login-check-box">
+          <div class="left-login-check-box">
+            <img src="images/check.png" /><span>로그인 상태 유지</span>
+          </div>
+          <ul class="right-login-check-box">
+            <li>IP보안 <span class="green">ON</span></li>
+            <li>일회용 로그인 <button>?</button></li>
+          </ul>
+        </div>
+        <div class="modal">
+          <div class="modal-text">
+            <span class="yellow">PC방</span>처럼 여러 사람이 쓰는 PC라면?
+            <span class="close-btn">✖</span>
+          </div>
+        </div>
+        <ul class="find-user">
+          <li><a href="#">아이디 찾기</a></li>
+          <li><a href="#">비밀번호 찾기</a></li>
+          <li><a href="">회원가입</a></li>
+        </ul>
+        <div class="baner-box">
+          <img src="images/under-baner.PNG" />
+        </div>
+      </main>
+      <footer>
+        <ul class="detail-info">
+          <li><a href="#">이용약관</a></li>
+          <li>
+            <a href="#"><strong>개인정보 처리방침</strong></a>
+          </li>
+          <li><a href="#">책임의 한계와 법적고지</a></li>
+          <li><a href="#">회원정보 고객센터</a></li>
+        </ul>
+        <div class="company-info">
+          <img src="images/naver-main-logo.png" />
+          <p>
+            Copyright <strong>© NAVER Corp.</strong> All Rights Reserved.
+          </p>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
